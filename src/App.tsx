@@ -6,7 +6,7 @@ import styles from "./App.module.css";
 const App: Component = () => {
   return (
     <div class={styles.App}>
-      <x-scale-button></x-scale-button>
+      <scale-button>Test</scale-button>
       <header class={styles.header}>
         <img src={logo} class={styles.logo} alt="logo" />
         <p>
