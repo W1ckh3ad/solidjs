@@ -6,8 +6,8 @@ const App: Component = () => {
   const [count, setCount] = createSignal(0);
   return (
     <div class={styles.App}>
-      <scale-button type="button" onClick={() => setCount((count) => count + 1)}>
-        {count()}
+      <scale-button variant="ghost" type="button" onClick={() => setCount((c) => c + 1)}>
+        <span>{count()}</span>
       </scale-button>
     </div>
   );
