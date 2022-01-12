@@ -1,6 +1,5 @@
-import "solid-js";
+import { JSX } from "solid-js";
 import { Components } from "@telekom/scale-components";
-import { JSX } from "@telekom/scale-components/dist/types/stencil-public-runtime";
 
 interface MyElementProps {
   children?: JSX.Element;
