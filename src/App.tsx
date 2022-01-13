@@ -7,7 +7,13 @@ const App: Component = () => {
   let btn;
   return (
     <div class={styles.App}>
-      <scale-button variant="ghost" type="button" onClick={() => setCount((c) => c + 1)} ref={btn}>
+      <scale-button
+        variant="ghost"
+        type="button"
+        onClick={() => setCount((c) => c + 1)}
+        ref={btn}
+        class="test"
+      >
         {count()}
       </scale-button>
     </div>
