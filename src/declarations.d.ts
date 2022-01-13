@@ -16,7 +16,6 @@ type StencilToSolid<T> = {
 declare module "solid-js" {
   namespace JSX {
     interface IntrinsicElements extends StencilToSolid<ScaleJSX.IntrinsicElements> {
-      // "scale-button": Components.ScaleButton & MyElementProps & ButtonHTMLAttributes<HTMLButtonElement>;
     }
   }
 }
